@@ -16,11 +16,14 @@
     font-size: 8px;
   }
   .hero p {
-    font-size: 20px;
+    font-size: 20px !important;
   }
   .description {
     padding: 0;
     text-align: center;
+  }
+  .description h2 {
+    font-size: 30px !important;
   }
 }
 h1 {
@@ -76,4 +79,9 @@ p {
   text-align: center;
   font-weight: 400;
   color: #272142;
+}
+.description h2 {
+  text-align: center;
+  font-size: 64px;
+  font-family: var(--heading-font-family);
 }

@@ -5,7 +5,7 @@
   --branding-app-color: #6c63ff;
   --paragraph-color: rgba(39, 33, 66, 0.7);
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .hero h1 {
     font-size: 40px;
   }
@@ -17,6 +17,10 @@
   }
   .hero p {
     font-size: 20px;
+  }
+  .description {
+    padding: 0;
+    text-align: center;
   }
 }
 h1 {
@@ -40,6 +44,8 @@ p {
   color: var(--paragraph-color);
   font-weight: 400;
   font-size: 16px;
+  line-height: 30px;
+  margin: 48px;
 }
 
 .hero {
@@ -65,4 +71,9 @@ p {
   color: var(--branding-app-color);
   border: 1px solid var(--branding-app-color);
   padding: 15px 30px;
+}
+.info p {
+  text-align: center;
+  font-weight: 400;
+  color: #272142;
 }

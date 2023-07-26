@@ -85,3 +85,9 @@ p {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
+.description h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--default-font-family);
+  color: #272142;
+}

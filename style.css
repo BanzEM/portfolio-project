@@ -26,8 +26,12 @@
     font-size: 30px !important;
   }
 }
-h1 {
+.hero h1 {
   font-size: 96px;
+}
+h1 {
+  font-family: var(--heading-font-family);
+  font-style: normal;
   color: #000;
   font-weight: 700;
 }
@@ -38,10 +42,7 @@ h1 {
   font-style: normal;
   font-weight: 400;
 }
-h1 {
-  font-family: var(--heading-font-family);
-  font-style: normal;
-}
+
 p {
   font-family: var(--default-font-family);
   color: var(--paragraph-color);
@@ -90,4 +91,12 @@ p {
   line-height: 27px;
   font-family: var(--default-font-family);
   color: #272142;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.about {
+  margin: 21;
+  padding: 160px 20px;
 }

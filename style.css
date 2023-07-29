@@ -128,3 +128,16 @@ h4 {
 .more-info {
   font-size: 48px !important;
 }
+.contact {
+  margin-top: 160px;
+}
+.contact .row {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.contact p {
+  margin: 0;
+}
+.details {
+  text-align: center;
+}

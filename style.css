@@ -51,6 +51,9 @@ p {
   line-height: 30px;
   margin: 48px;
 }
+.about-section p {
+  margin: 0;
+}
 
 .hero {
   text-align: center;

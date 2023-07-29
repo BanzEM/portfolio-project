@@ -133,11 +133,30 @@ h4 {
 }
 .contact .row {
   margin-top: 60px;
-  margin-bottom: 40px;
 }
 .contact p {
   margin: 0;
 }
 .details {
   text-align: center;
+}
+
+.email {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: var(--default-font-family);
+}
+.socials {
+  text-align: center;
+}
+li {
+  display: inline;
+  margin-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: #272142;
+}
+a:hover {
+  color: #6c63ff;
 }

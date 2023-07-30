@@ -163,3 +163,20 @@ a:hover {
 .nav-item {
   padding: 0 2px;
 }
+
+.active {
+  color: #6c63ff !important;
+}
+.about-content {
+  margin-top: 0;
+  padding-top: 25px;
+}
+.nav-about {
+  margin-bottom: 100px;
+}
+.nav-index {
+  background-color: var(--page-color);
+}
+.nav-work {
+  margin-bottom: 100px;
+}

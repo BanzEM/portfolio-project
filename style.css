@@ -190,3 +190,7 @@ h5 {
   font-size: 24px;
   font-family: var(--default-font-family);
 }
+.github {
+  text-align: center;
+  color: blue;
+}

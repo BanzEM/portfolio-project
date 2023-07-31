@@ -7,7 +7,19 @@
 }
 @media (max-width: 900px) {
   .hero h1 {
-    font-size: 40px;
+    font-size: 40px !important;
+  }
+  .about-content {
+    padding-bottom: 60px !important;
+  }
+
+  .nav-about,
+  .nav-work {
+    margin-bottom: 20px !important;
+  }
+  .dictionary-button,
+  .patricia-image {
+    margin-bottom: 60px !important;
   }
   .hero h2 {
     font-size: 16px !important;
@@ -149,6 +161,7 @@ h4 {
 .socials {
   text-align: center;
 }
+
 li {
   display: inline;
   margin-left: 50px;
